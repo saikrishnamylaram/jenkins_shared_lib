@@ -4,7 +4,7 @@ def projectName = pipelineParams.ecrRepoName
 pipeline {
  agent any
   environment {
-    registry = "ybmsr/${projectName}"
+    registry = "saikrishnamsk/${projectName}"
     registryCredential = 'dockerhub_credentials'
     dockerImage = ''
   }
