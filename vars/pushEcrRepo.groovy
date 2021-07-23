@@ -8,7 +8,7 @@ pipeline {
         VERSION = "${BUILD_NUMBER}"
         PROJECT = "${projectName}"
         IMAGE = "$PROJECT:$VERSION"
-        ECRURL = 'https://914204736476.dkr.ecr.us-east-2.amazonaws.com/${projectName}'
+        ECRURL = 'https://914204736476.dkr.ecr.ap-south-1.amazonaws.com/${projectName}'
         ECRCRED = 'ecr:us-east-2:awscredentials'
     }
     stages {
